@@ -1,0 +1,4 @@
+Manifest-Version: 1.0
+Create-By: Agusdom
+Main-Class: Bienvenida
+X-COMMENT: Curso Java

@@ -1,0 +1,48 @@
+public class EjerciciosLogica{
+  public static void main(String args[]){
+   int i = 1;
+   int z = 100;
+   System.out.println("Ciclo For");
+   for(i=1;i<10;i++){
+   System.out.print(i + ",");
+   }
+   System.out.print(i);
+   System.out.println("");
+      for(i=1;i<=5;i++){
+   for(z=100;z>95;z--){
+   System.out.print(i + ",");
+   System.out.print(z + ",");
+   }
+}
+   System.out.println("");
+   System.out.println("Ciclo While");
+   while(i<10){
+   System.out.print(i+",");
+   }
+   System.out.print(i);
+   System.out.println("");
+     while(i<=10 && z>95){
+   System.out.print(i + ",");
+   System.out.print(z + ",");
+   i++;
+   z--;
+   }
+   System.out.println("");
+   
+  System.out.println("Ciclo Do-while");
+  do{
+   System.out.print(i + ",");
+   i++;
+  }while(i<10);
+   System.out.print(i);
+  System.out.println("");
+  do{
+   System.out.print(i + ",");
+   System.out.print(z + ",");
+   i++;
+   z--;
+  }while(i<=10 && z>95);
+   System.out.print(z);
+  System.out.println("");
+ }
+}
